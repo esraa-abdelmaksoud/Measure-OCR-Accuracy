@@ -3,8 +3,8 @@ import os
 import re
 import Levenshtein
 
-files_path = r'/mnt/D/Upwork/CompleteMap-Rom/OCR_esraa/excel_selected'
-output_path = r'/mnt/D/Upwork/CompleteMap-Rom/OCR_esraa/excel_concat_test.xlsx'
+files_path = r'/mnt/D/excel_selected'
+output_path = r'/mnt/D/excel_concat_test.xlsx'
 
 
 def concat_text(files_path: str, output_path: str):
