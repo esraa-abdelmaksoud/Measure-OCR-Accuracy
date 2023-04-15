@@ -9,7 +9,7 @@ import random
 import sys
 import time
 
-main_dir = r"/mnt/D/Upwork/CompleteMap-Rom/preview_reports_spatial_OCR/"
+main_dir = r"/mnt/D/preview_reports_spatial_OCR/"
 
 required_pages = 1000
 
