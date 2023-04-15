@@ -2,16 +2,11 @@ import cv2
 import os
 import xlsxwriter
 
-rect_folder_path = r'/mnt/D/Upwork/CompleteMap-Rom/OCR_esraa/red_selected/'
-org_folder_path = r'/mnt/D/Upwork/CompleteMap-Rom/OCR_esraa/image_selected/'
-output_folder_path = r'/mnt/D/Upwork/CompleteMap-Rom/OCR_esraa/excel_rect/'
-conv_folder_path = r'/mnt/D/Upwork/CompleteMap-Rom/OCR_esraa/color_conversion/'
-snips_folder_path = r'/mnt/D/Upwork/CompleteMap-Rom/OCR_esraa/red_rect_snips/'
-# rect_folder_path = r'/mnt/D/Upwork/CompleteMap-Rom/OCR_esraa/test/red_selected/'
-# org_folder_path = r'/mnt/D/Upwork/CompleteMap-Rom/OCR_esraa/test/image_selected/'
-# output_folder_path = r'/mnt/D/Upwork/CompleteMap-Rom/OCR_esraa/test/rect_output/'
-# conv_folder_path = r'/mnt/D/Upwork/CompleteMap-Rom/OCR_esraa/test/color_conversion/'
-# snips_folder_path = r'/mnt/D/Upwork/CompleteMap-Rom/OCR_esraa/test/red_rect_snips/'
+rect_folder_path = r'/mnt/D/red_selected/'
+org_folder_path = r'/mnt/D/image_selected/'
+output_folder_path = r'/mnt/D/excel_rect/'
+conv_folder_path = r'/mnt/D/color_conversion/'
+snips_folder_path = r'/mnt/D/red_rect_snips/'
 
 
 def main(output_folder_path, rect_folder_path):
